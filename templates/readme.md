@@ -4,7 +4,6 @@
 [![coverage status][coveralls-img]][coveralls-url]
 [![deps status][daviddm-img]][daviddm-url]
 
-[![regexps org][regexps-img]][regexps-url]  
 > {{pkgDesc}}
 
 ## Install
