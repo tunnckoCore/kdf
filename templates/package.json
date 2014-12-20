@@ -1,6 +1,6 @@
 {
   "name": "{{pkgName}}",
-  "description": "{{pkgDesc}}",
+  "description": "{{{pkgDesc}}}",
   "version": "{{pkgVers}}",
   "scripts": {
     "lint": "jshint . && jscs . --reporter inline",

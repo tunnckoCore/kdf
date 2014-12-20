@@ -4,7 +4,7 @@
 [![coverage status][coveralls-img]][coveralls-url]
 [![deps status][daviddm-img]][daviddm-url]
 
-> {{pkgDesc}}
+> {{{pkgDesc}}}
 
 ## Install
 ```bash
@@ -24,6 +24,7 @@ $ npm test
 + [github/tunnckoCore][author-github]
 + [npmjs/tunnckoCore][author-npmjs]
 + [more ...][contrib-more]
+
 
 ## License [![MIT license][license-img]][license-url]
 Copyright (c) 2014 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
