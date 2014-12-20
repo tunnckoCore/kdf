@@ -14,6 +14,13 @@ $ npm test
 
 
 ## Usage
+> For more use-cases see the [tests](./test.js)
+
+```js
+var {{pkgSens}} = require('{{pkgName}}');
+```
+
+
 ## API / CLI
 
 
@@ -53,3 +60,7 @@ Released under the [`MIT`][license-url] license.
 
 [contrib-more]: http://j.mp/1stW47C
 [contrib-graf]: https://github.com/{{pkgOrgs}}/{{pkgName}}/graphs/contributors
+
+***
+
+_Powered and automated by [readdirp + hogan.js](https://github.com/tunnckoCore), {{pkgDate}}_

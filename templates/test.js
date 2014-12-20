@@ -7,8 +7,8 @@
 
 'use strict';
 
-var pkg = require('./index');
+var {{pkgSens}} = require('./index');
 
-module.exports = function stackName() {
+describe('{{pkgName}}:', function() {
   // body
-};
+});

@@ -7,6 +7,6 @@
 
 'use strict';
 
-module.exports = function stackName() {
+module.exports = function {{pkgSens}}() {
   // body
 };
