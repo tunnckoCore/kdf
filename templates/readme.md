@@ -8,8 +8,8 @@
 
 ## Install
 ```bash
-$ npm install {{pkgName}}
-$ npm test
+npm install {{pkgName}}
+npm test
 ```
 
 
