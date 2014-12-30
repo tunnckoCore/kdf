@@ -7,9 +7,9 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var opts = {
-  pkgName: 'native-or-another',
-  pkgDesc: 'Export either the native Promise or Bluebird as deferred object',
-  pkgVers: '2.0.0',
+  pkgName: 'dual-emitter',
+  pkgDesc: 'cross-browser (and IE8) + node.js event emitter. Invoke custom or DOM event. Micro library in 35 lines without jQuery!!!',
+  pkgVers: '0.0.0',
   pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')
 };
