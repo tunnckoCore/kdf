@@ -3,7 +3,7 @@
   "version": "{{pkgVers}}",
   "description": "{{{pkgDesc}}}",
   "scripts": {
-    "lint": "jshint . && jscs . --reporter inline",
+    "lint": "jshint index.js && jscs index.js --reporter inline",
     "test": "mocha",
     "test-cov": "istanbul cover _mocha",
     "test-travis": "istanbul cover _mocha --report lcovonly"
@@ -25,7 +25,7 @@
   "dependencies": {},
   "devDependencies": {
     "istanbul-harmony": "^0.3.1",
-    "mocha": "^2.0.1",
+    "mocha": "*",
     "mocha-lcov-reporter": "^0.0.1"
   }
 }
