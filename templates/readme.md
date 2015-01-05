@@ -59,4 +59,4 @@ Released under the [`MIT`][license-url] license.
 
 ***
 
-_Powered and automated by [readdirp + hogan.js](https://github.com/tunnckoCore), {{pkgDate}}_
+_Powered and automated by [kdf](https://github.com/tunnckoCore), {{pkgDate}}_

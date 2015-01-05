@@ -7,8 +7,8 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var opts = {
-  pkgName: 'j140',
-  pkgDesc: 'Javascript template engine in just 140 bytes, for browser and node - by Jed Schmidt',
+  pkgName: 'glob2fp',
+  pkgDesc: 'Recursively extract/find/search non-glob (real/file/base) path from/in glob pattern or array of glob patterns using `is-glob`.',
   pkgVers: '0.0.0',
   pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')
