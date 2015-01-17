@@ -7,8 +7,8 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var opts = {
-  pkgName: 'glob2fp',
-  pkgDesc: 'Recursively extract/find/search non-glob (real/file/base) path from/in glob pattern or array of glob patterns using `is-glob`.',
+  pkgName: 'koa-better-body',
+  pkgDesc: 'A `koa` body parser middleware with support for `multipart`, `json`, `csp-report` and `urlencoded` request bodies. Via `formidable` and `co-body`.',
   pkgVers: '0.0.0',
   pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')
