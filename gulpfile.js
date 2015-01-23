@@ -7,8 +7,8 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var opts = {
-  pkgName: 'stringify-github-short-url',
-  pkgDesc: 'Stringify github shorthand url object returned from `parse-github-short-url`',
+  pkgName: 'hybridify-all',
+  pkgDesc: 'Hybridifies all the selected functions in an object.',
   pkgVers: '0.0.0',
   pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')
