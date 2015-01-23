@@ -30,7 +30,7 @@ var {{pkgSens}} = require('{{pkgName}}');
 
 
 ## License [![MIT license][license-img]][license-url]
-Copyright (c) 2015 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
+Copyright (c) 2014-2015 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
 Released under the [`MIT`][license-url] license.
 
 
