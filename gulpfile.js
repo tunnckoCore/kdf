@@ -7,10 +7,10 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var opts = {
-  pkgName: 'hybridify-all',
-  pkgDesc: 'Hybridifies all the selected functions in an object.',
+  pkgName: 'current-week-number',
+  pkgDesc: 'Get current week number of the current year or given date string format.',
   pkgVers: '0.0.0',
-  pkgOrgs: 'tunnckoCore',
+  pkgOrgs: 'datetime',
   pkgDate: dateformat('longDate')
 };
 opts.pkgSens = camelCase(opts.pkgName)

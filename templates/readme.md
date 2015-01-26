@@ -4,7 +4,7 @@
 
 ## Install
 ```bash
-npm install {{pkgName}}
+npm i --save {{pkgName}}
 npm test
 ```
 
