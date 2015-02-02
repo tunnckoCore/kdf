@@ -3,7 +3,7 @@
 > {{{pkgDesc}}}
 
 ## Install
-```bash
+```
 npm i --save {{pkgName}}
 npm test
 ```

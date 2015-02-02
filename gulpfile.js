@@ -7,10 +7,10 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var opts = {
-  pkgName: 'current-week-number',
-  pkgDesc: 'Get current week number of the current year or given date string format.',
+  pkgName: 'hex-color-regex',
+  pkgDesc: 'Regular expression (regex) for matching hex color values from string.',
   pkgVers: '0.0.0',
-  pkgOrgs: 'datetime',
+  pkgOrgs: 'regexps',
   pkgDate: dateformat('longDate')
 };
 opts.pkgSens = camelCase(opts.pkgName)
