@@ -7,8 +7,8 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var context = {
-  pkgName: 'gitfork',
-  pkgDesc: 'Fork a Github repo with node.js (programmatically) with just \`user/repo\` pattern or through [gitfork-cli][gitfork-cli] package for CLI usage.',
+  pkgName: 'github-clone-fork',
+  pkgDesc: 'Simply tool for forking github repo then clone it locally - API and CLI',
   pkgVers: '0.0.0',
   pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')
