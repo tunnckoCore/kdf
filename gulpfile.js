@@ -7,10 +7,10 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var context = {
-  pkgName: 'github-clone-fork',
-  pkgDesc: 'Simply tool for forking github repo then clone it locally - API and CLI',
+  pkgName: 'mentions-regex',
+  pkgDesc: 'The correct mention(s) regex. Regular expression for twitter, facebook, github, etc user mentions.',
   pkgVers: '0.0.0',
-  pkgOrgs: 'tunnckoCore',
+  pkgOrgs: 'regexps',
   pkgDate: dateformat('longDate')
 };
 context.pkgSens = camelCase(context.pkgName)
