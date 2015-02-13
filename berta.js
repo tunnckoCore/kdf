@@ -4,7 +4,7 @@ function berta(template, data, opts) {
   opts = opts || {};
   opts.open = '{{';
   opts.close = '}}'
-  var pattern = new RegExp('{{\\s?([^\\s]+)\\s?}}', 'g');
+  var pattern = /\{\{\s?([^\s]+)\s?\}\}/g;
 
   return template.replace(pattern, function(input, match) {
     var path = match.split('.');
@@ -22,9 +22,7 @@ function berta(template, data, opts) {
       if (i === len - 1) {
         if (typeof cache === 'function') {
           var fn = cache;
-          var str = fn.toString();
-          console.log(str)
-          return cache.call(data)
+          return cache.call(data);
         }
         return cache;
       }
@@ -46,6 +44,7 @@ var data = {
   nick: 'Charlike',
 }
 console.log(
-  berta('created by New {{ nick }} {{user.edit}} Campaigns, the {{ user.name.age }} behind and {{user.name.calc}}.',
+  berta('created by New {{ nick }} {{user.edit}} Campaigns, the {{ user.name.age }}\
+    behind and {{user.name.calc}}.',
    data)
   )
