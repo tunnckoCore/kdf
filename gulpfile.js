@@ -7,10 +7,10 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var context = {
-  pkgName: 'mentions-regex',
-  pkgDesc: 'The correct mention(s) regex. Regular expression for twitter, facebook, github, etc user mentions.',
+  pkgName: 'get-first-from-filepath',
+  pkgDesc: 'Get the very first directory name from file path `./foo/bar/baz` -> `foo` or `../a/b/c` -> `../a`',
   pkgVers: '0.0.0',
-  pkgOrgs: 'regexps',
+  pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')
 };
 context.pkgSens = camelCase(context.pkgName)

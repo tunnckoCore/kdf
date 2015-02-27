@@ -1,7 +1,7 @@
 /**
  * {{pkgName}} <https://github.com/{{pkgOrgs}}/{{pkgName}}>
  *
- * Copyright (c) 2014-2015 Charlike Mike Reagent, contributors.
+ * Copyright (c) 2015 Charlike Mike Reagent, contributors.
  * Released under the MIT license.
  */
 
