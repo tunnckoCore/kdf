@@ -7,8 +7,8 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var context = {
-  pkgName: 'get-first-from-filepath',
-  pkgDesc: 'Get the very first directory name from file path `./foo/bar/baz` -> `foo` or `../a/b/c` -> `../a`',
+  pkgName: 'char-codes',
+  pkgDesc: 'Char codes utility belt - char code, char name and the char (character)',
   pkgVers: '0.0.0',
   pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')
