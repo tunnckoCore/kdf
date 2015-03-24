@@ -1,0 +1,78 @@
+@charset 'utf-8';;
+
+/* start> root.gack.css */
+
+
+:root { {
+  helvetica: "Helvetica", Arial, sans-serif;;
+  georgia: Georgia, Cambria, Times, serif;;
+  verdana: Verdana, "Geneva", sans-serif;;
+  blue: #0074D9;;
+  aqua: #7FDBFF;;
+  teal: #39CCCC;;
+  gray: #dddddd;;
+  size: 3rem;;
+  icon-size: calc(size / 2);;
+  main-color: gray;;
+  company: 'charlike';;
+}
+
+};
+
+/* end> mixins.gack.css */
+
+
+/* start> mixins.gack.css */
+
+
+size(sz) { {
+  line-height: calc(sz * 2);      /* required */;
+  font-size: sz;                  /* required */;
+}
+
+};
+
+icons(cont,
+clr,
+szr) { {
+  padding-left: calc(szr / 10);;
+  color: blue;;
+  content: cont;                  /* required */;
+  background: clr main-color;;
+  size: szr;                /* will pass `size` var to `@size` mixin as 0th argument */;
+}
+
+};
+
+/* end> mixins.gack.css */
+
+
+/* start> index.gack.css */
+
+
+ul { {
+  padding: size;;
+};}
+
+ul { li { a { .something  { {
+  background: teal;;
+}
+
+ul { li { {
+};font-size: size;;
+color: aqua;;
+}
+
+};
+
+button { {
+  icons: 'twitter', white, calc(icon-size * 3px);;
+  border-radius: 5px;;
+  padding: 5px 10px;;
+  /* todo, maybe shadow function? not mixin */
+  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;;
+}
+
+};
+
+/* end> index.gack.css */

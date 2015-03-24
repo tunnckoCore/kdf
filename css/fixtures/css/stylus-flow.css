@@ -1,0 +1,101 @@
+/**
+ * Stylus Flow
+ * of the processor
+ */
+
+@charset 'utf-8'
+@import 'settings.css'
+
+:root
+  // fonts
+  helvetica: "Helvetica", Arial, sans-serif
+  georgia:   Georgia, Cambria, Times, serif
+  verdana:   Verdana, "Geneva", sans-serif
+  
+  //colors
+  blue:      #0074D9
+  aqua:      #7FDBFF
+  teal:      #39CCCC
+  olive:     #3D9970
+  green:     #2ECC40
+  lime:      #01FF70
+  yellow:    #FFDC00
+  orange:    #FF851B
+  red:       #D13F19
+  maroon:    #85144B
+  fuchsia:   #F012BE
+  purple:    #B10DC9
+  white:     #FFFFFF
+  silver:    #DDDDDD
+  gray:      #AAAAAA
+  black:     #222222
+  
+  // font settings
+  font-stack:  verdana
+  font-size:   16
+  font-color:  green
+  
+  // mixins/fragment/abstract or "custom property" (CSS-Crush's plugin)
+  .bordered
+    border-radius: 5px
+    border: 3px solid $0? orange
+    font-family: $1? verdana
+    color: $2? font-color
+
+.homepage
+  color: #333
+  background: white
+  .content
+    p
+      font-size: 110%
+      border-radius: 55px
+    margin: 10px 10px
+    font-weight: bold
+  font-size: 2rem
+  padding-top: 5px
+
+.foo
+  bordered: yellow, georgia, maroon
+  opacity: 0.5
+  background: font-color
+
+.bar
+  bordered: default
+  color: lime
+  border-radius: 10px
+  box-sizing: border-box
+
+.baz
+  bordered: fuchsia, georgia
+  font-family: helvetica
+  background-size: 155px
+
+button
+  &:hover
+    color: red 10px
+  &:active
+    color: blue
+
+button .active
+  color: orange
+  margin: 10px 10px
+
+ul
+  li
+    a
+      .something
+        color: white
+  padding: 10px
+
+button
+  border-radius: 5px
+  padding: 5px 10px
+  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue
+
+@media print
+  .homepage
+    padding-top: 0
+
+  button
+    border-radius: 0
+    width: 100%

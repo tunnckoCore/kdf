@@ -1,0 +1,22 @@
+
+@size
+  line-height:      calc(#(0) * 2)      // required
+  font-size:        #0                  // required
+
+/* css comment */
+@icons
+  padding-left:     calc(size / 10)
+  color:            blue
+  content:          #0                  // required
+  background:       #1 main-color
+  size:             size                // will pass `size` variable
+                                        // to `@size` mixin as 0th argument
+
+ul
+  padding: size
+  li
+    a
+      .something
+        background: teal
+    font-size: size
+    color: aqua

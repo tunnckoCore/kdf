@@ -1,0 +1,61 @@
+@charset 'utf-8';
+@import 'settings.css';
+
+/* @custom-selector <name> <value>
+@custom-selector --heading h1,h2,h3,h4; */
+
+:root {
+  /* fonts */
+  helvetica: "Helvetica", Arial, sans-serif;
+  georgia:   Georgia, Cambria, Times, serif;
+  verdana:   Verdana, "Geneva", sans-serif;
+
+  /* colors */
+  blue:      #0074D9;
+  aqua:      #7FDBFF;
+  teal:      #39CCCC;
+  gray:      #dddddd;
+
+  icon-size: 1.2rem;
+  size: 3rem;
+  main-color: gray;
+  company: 'charlike';
+}
+/* first argument/param is required */
+@size {
+  line-height: calc(#(0) * 2);
+  font-size: #0;
+}
+@icons {
+  /* `size` in calc will be `3rem`*/
+  padding-left: calc(size / 10); 
+  color: blue;
+  content: #0;
+  background: #1 main-color;
+  /* here `size` value will be passed to `@size` and used as `#0` in it*/
+  size: size; 
+}
+
+
+ul {
+  padding: size;
+  li {
+    a {
+      .something {
+        background: teal;
+      }
+    }
+    font-size: size;
+    color: aqua;
+  }
+}
+
+
+button {
+  extend: .something;
+  /* only first (in case `'twitter'`) argument/param is required */
+  icons: 'twitter', white, calc(icon-size * 3px);
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;
+}

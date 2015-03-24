@@ -1,0 +1,205 @@
+{
+  "type": "stylesheet",
+  "stylesheet": {
+    "rules": [
+      {
+        "type": "charset",
+        "charset": "'utf-8'",
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 18
+          }
+        }
+      },
+      {
+        "type": "rule",
+        "selectors": [
+          "section a"
+        ],
+        "declarations": [
+          {
+            "type": "declaration",
+            "property": "helvetica",
+            "value": "\"Helvetica\", Arial, sans-serif",
+            "position": {
+              "start": {
+                "line": 4,
+                "column": 3
+              },
+              "end": {
+                "line": 4,
+                "column": 51
+              }
+            }
+          },
+          {
+            "type": "declaration",
+            "property": "georgia",
+            "value": "Georgia, Cambria, Times, serif",
+            "position": {
+              "start": {
+                "line": 5,
+                "column": 3
+              },
+              "end": {
+                "line": 5,
+                "column": 51
+              }
+            }
+          },
+          {
+            "type": "declaration",
+            "property": "verdana",
+            "value": "Verdana, \"Geneva\", sans-serif",
+            "position": {
+              "start": {
+                "line": 6,
+                "column": 3
+              },
+              "end": {
+                "line": 6,
+                "column": 50
+              }
+            }
+          },
+          {
+            "type": "declaration",
+            "property": "blue",
+            "value": "#0074D9",
+            "position": {
+              "start": {
+                "line": 8,
+                "column": 3
+              },
+              "end": {
+                "line": 8,
+                "column": 28
+              }
+            }
+          },
+          {
+            "type": "declaration",
+            "property": "aqua",
+            "value": "#7FDBFF",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 3
+              },
+              "end": {
+                "line": 9,
+                "column": 28
+              }
+            }
+          },
+          {
+            "type": "declaration",
+            "property": "teal",
+            "value": "#39CCCC",
+            "position": {
+              "start": {
+                "line": 10,
+                "column": 3
+              },
+              "end": {
+                "line": 10,
+                "column": 28
+              }
+            }
+          },
+          {
+            "type": "declaration",
+            "property": "gray",
+            "value": "#dddddd",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 3
+              },
+              "end": {
+                "line": 11,
+                "column": 28
+              }
+            }
+          },
+          {
+            "type": "declaration",
+            "property": "size",
+            "value": "3rem",
+            "position": {
+              "start": {
+                "line": 13,
+                "column": 3
+              },
+              "end": {
+                "line": 13,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "declaration",
+            "property": "icon-size",
+            "value": "calc(size / 2)",
+            "position": {
+              "start": {
+                "line": 14,
+                "column": 3
+              },
+              "end": {
+                "line": 14,
+                "column": 35
+              }
+            }
+          },
+          {
+            "type": "declaration",
+            "property": "main-color",
+            "value": "gray",
+            "position": {
+              "start": {
+                "line": 15,
+                "column": 3
+              },
+              "end": {
+                "line": 15,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "declaration",
+            "property": "company",
+            "value": "'charlike'",
+            "position": {
+              "start": {
+                "line": 16,
+                "column": 3
+              },
+              "end": {
+                "line": 16,
+                "column": 31
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 3,
+            "column": 1
+          },
+          "end": {
+            "line": 17,
+            "column": 2
+          }
+        }
+      }
+    ],
+    "parsingErrors": []
+  }
+}

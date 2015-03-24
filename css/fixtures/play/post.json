@@ -1,0 +1,404 @@
+{
+  "root": {
+    "type": "root",
+    "nodes": [
+      {
+        "type": "atrule",
+        "name": "charset",
+        "source": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "input": {
+            "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+            "safe": false,
+            "id": "<input css 1>",
+            "from": "<input css 1>"
+          },
+          "end": {
+            "line": 1,
+            "column": 17
+          }
+        },
+        "before": "",
+        "between": "",
+        "afterName": " ",
+        "params": "'utf-8'"
+      },
+      {
+        "type": "atrule",
+        "name": "import",
+        "source": {
+          "start": {
+            "line": 2,
+            "column": 1
+          },
+          "input": {
+            "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+            "safe": false,
+            "id": "<input css 1>",
+            "from": "<input css 1>"
+          },
+          "end": {
+            "line": 2,
+            "column": 23
+          }
+        },
+        "before": "\n",
+        "between": "",
+        "afterName": " ",
+        "params": "'settings.css'"
+      },
+      {
+        "type": "atrule",
+        "name": "custom-selector",
+        "source": {
+          "start": {
+            "line": 3,
+            "column": 1
+          },
+          "input": {
+            "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+            "safe": false,
+            "id": "<input css 1>",
+            "from": "<input css 1>"
+          },
+          "end": {
+            "line": 3,
+            "column": 40
+          }
+        },
+        "before": "\n",
+        "between": "",
+        "afterName": " ",
+        "params": ":--heading h1,h2,h3,h4"
+      },
+      {
+        "type": "rule",
+        "nodes": [
+          {
+            "type": "decl",
+            "source": {
+              "start": {
+                "line": 6,
+                "column": 3
+              },
+              "input": {
+                "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+                "safe": false,
+                "id": "<input css 1>",
+                "from": "<input css 1>"
+              },
+              "end": {
+                "line": 6,
+                "column": 17
+              }
+            },
+            "before": "\n  ",
+            "prop": "padding",
+            "between": ": ",
+            "value": "$size"
+          }
+        ],
+        "source": {
+          "start": {
+            "line": 5,
+            "column": 1
+          },
+          "input": {
+            "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+            "safe": false,
+            "id": "<input css 1>",
+            "from": "<input css 1>"
+          },
+          "end": {
+            "line": 7,
+            "column": 1
+          }
+        },
+        "before": "\n\n",
+        "between": " ",
+        "selector": "ul $size",
+        "semicolon": true,
+        "after": "\n"
+      },
+      {
+        "type": "rule",
+        "nodes": [
+          {
+            "type": "decl",
+            "source": {
+              "start": {
+                "line": 9,
+                "column": 3
+              },
+              "input": {
+                "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+                "safe": false,
+                "id": "<input css 1>",
+                "from": "<input css 1>"
+              },
+              "end": {
+                "line": 9,
+                "column": 15
+              }
+            },
+            "before": "\n  ",
+            "prop": "color",
+            "between": ": ",
+            "value": "white"
+          }
+        ],
+        "source": {
+          "start": {
+            "line": 8,
+            "column": 1
+          },
+          "input": {
+            "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+            "safe": false,
+            "id": "<input css 1>",
+            "from": "<input css 1>"
+          },
+          "end": {
+            "line": 10,
+            "column": 1
+          }
+        },
+        "before": "\n",
+        "between": " ",
+        "selector": "ul li a .something",
+        "semicolon": true,
+        "after": "\n"
+      },
+      {
+        "type": "atrule",
+        "name": "define-mixin",
+        "source": {
+          "start": {
+            "line": 11,
+            "column": 1
+          },
+          "input": {
+            "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+            "safe": false,
+            "id": "<input css 1>",
+            "from": "<input css 1>"
+          },
+          "end": {
+            "line": 15,
+            "column": 1
+          }
+        },
+        "before": "\n",
+        "between": " ",
+        "afterName": " ",
+        "params": "icon $color",
+        "nodes": [
+          {
+            "type": "decl",
+            "source": {
+              "start": {
+                "line": 12,
+                "column": 3
+              },
+              "input": {
+                "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+                "safe": false,
+                "id": "<input css 1>",
+                "from": "<input css 1>"
+              },
+              "end": {
+                "line": 12,
+                "column": 21
+              }
+            },
+            "before": "\n  ",
+            "prop": "padding-left",
+            "between": ": ",
+            "value": "16px"
+          },
+          {
+            "type": "decl",
+            "source": {
+              "start": {
+                "line": 13,
+                "column": 3
+              },
+              "input": {
+                "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+                "safe": false,
+                "id": "<input css 1>",
+                "from": "<input css 1>"
+              },
+              "end": {
+                "line": 13,
+                "column": 14
+              }
+            },
+            "before": "\n  ",
+            "prop": "color",
+            "between": ": ",
+            "value": "blue"
+          },
+          {
+            "type": "decl",
+            "source": {
+              "start": {
+                "line": 14,
+                "column": 3
+              },
+              "input": {
+                "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+                "safe": false,
+                "id": "<input css 1>",
+                "from": "<input css 1>"
+              },
+              "end": {
+                "line": 14,
+                "column": 21
+              }
+            },
+            "before": "\n  ",
+            "prop": "background",
+            "between": ": ",
+            "value": "$color"
+          }
+        ],
+        "semicolon": true,
+        "after": "\n"
+      },
+      {
+        "type": "rule",
+        "nodes": [
+          {
+            "type": "atrule",
+            "name": "mixin",
+            "source": {
+              "start": {
+                "line": 17,
+                "column": 3
+              },
+              "input": {
+                "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+                "safe": false,
+                "id": "<input css 1>",
+                "from": "<input css 1>"
+              },
+              "end": {
+                "line": 17,
+                "column": 28
+              }
+            },
+            "before": "\n  ",
+            "between": "",
+            "afterName": " ",
+            "params": "icons twitter gray"
+          },
+          {
+            "type": "decl",
+            "source": {
+              "start": {
+                "line": 18,
+                "column": 3
+              },
+              "input": {
+                "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+                "safe": false,
+                "id": "<input css 1>",
+                "from": "<input css 1>"
+              },
+              "end": {
+                "line": 18,
+                "column": 21
+              }
+            },
+            "before": "\n  ",
+            "prop": "border-radius",
+            "between": ": ",
+            "value": "5px"
+          },
+          {
+            "type": "decl",
+            "source": {
+              "start": {
+                "line": 19,
+                "column": 3
+              },
+              "input": {
+                "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+                "safe": false,
+                "id": "<input css 1>",
+                "from": "<input css 1>"
+              },
+              "end": {
+                "line": 19,
+                "column": 20
+              }
+            },
+            "before": "\n  ",
+            "prop": "padding",
+            "between": ": ",
+            "value": "5px 10px"
+          },
+          {
+            "type": "decl",
+            "source": {
+              "start": {
+                "line": 20,
+                "column": 3
+              },
+              "input": {
+                "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+                "safe": false,
+                "id": "<input css 1>",
+                "from": "<input css 1>"
+              },
+              "end": {
+                "line": 20,
+                "column": 62
+              }
+            },
+            "before": "\n  ",
+            "prop": "box-shadow",
+            "between": ": ",
+            "value": "0 0 3px red, 0 0 10px green, inset 0 0 3px blue"
+          }
+        ],
+        "source": {
+          "start": {
+            "line": 16,
+            "column": 1
+          },
+          "input": {
+            "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+            "safe": false,
+            "id": "<input css 1>",
+            "from": "<input css 1>"
+          },
+          "end": {
+            "line": 21,
+            "column": 1
+          }
+        },
+        "before": "\n",
+        "between": " ",
+        "selector": "button",
+        "semicolon": true,
+        "after": "\n"
+      }
+    ],
+    "source": {
+      "input": {
+        "css": "@charset 'utf-8';\n@import 'settings.css';\n@custom-selector :--heading h1,h2,h3,h4;\n\nul $size {\n  padding: $size;\n}\nul li a .something {\n  color: white;\n}\n@define-mixin icon $color {\n  padding-left: 16px;\n  color: blue;\n  background: $color;\n}\nbutton {\n  @mixin icons twitter gray;\n  border-radius: 5px;\n  padding: 5px 10px;\n  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;\n}",
+        "safe": false,
+        "id": "<input css 1>",
+        "from": "<input css 1>"
+      }
+    },
+    "semicolon": false,
+    "after": ""
+  },
+  "opts": {}
+}

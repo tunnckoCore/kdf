@@ -1,0 +1,52 @@
+{
+    "parentStyleSheet": null,
+    "cssRules": [
+        {
+            "parentRule": null,
+            "parentStyleSheet": "../..",
+            "selectorText": "@charset 'utf-8';\n\nsection a",
+            "style": {
+                "0": "helvetica",
+                "1": "georgia",
+                "2": "verdana",
+                "3": "blue",
+                "4": "aqua",
+                "5": "teal",
+                "6": "gray",
+                "7": "size",
+                "8": "icon-size",
+                "9": "main-color",
+                "10": "company",
+                "length": 11,
+                "parentRule": "..",
+                "_importants": {
+                    "helvetica": "",
+                    "georgia": "",
+                    "verdana": "",
+                    "blue": "",
+                    "aqua": "",
+                    "teal": "",
+                    "gray": "",
+                    "size": "",
+                    "icon-size": "",
+                    "main-color": "",
+                    "company": ""
+                },
+                "__starts": 29,
+                "helvetica": "\"Helvetica\", Arial, sans-serif",
+                "georgia": "Georgia, Cambria, Times, serif",
+                "verdana": "Verdana, \"Geneva\", sans-serif",
+                "blue": "#0074D9",
+                "aqua": "#7FDBFF",
+                "teal": "#39CCCC",
+                "gray": "#dddddd",
+                "size": "3rem",
+                "icon-size": "calc(size / 2)",
+                "main-color": "gray",
+                "company": "'charlike'"
+            },
+            "__starts": 1,
+            "__ends": 427
+        }
+    ]
+}

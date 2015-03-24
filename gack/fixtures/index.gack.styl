@@ -1,0 +1,20 @@
+@charset 'utf-8'
+@import  'root'
+@import  'mixins'
+//@import  'functions'
+
+ul
+  padding: size
+  li
+    a
+      .something
+        background: teal
+    font-size: size
+    color: aqua
+
+button
+  icons: 'twitter', white, calc(icon-size * 3px)
+  border-radius: 5px
+  padding: 5px 10px
+  // todo, maybe shadow function? not mixin
+  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue

@@ -1,0 +1,39 @@
+/* @charset 'utf-8' */
+
+
+/* start: root.gack.css */
+
+
+
+
+/* end: mixins.gack.css */
+
+
+/* start: mixins.gack.css */
+
+
+
+
+
+
+/* end: mixins.gack.css */
+
+
+/* start: index.gack.css */
+
+
+ul {
+  padding: size;
+}
+
+ul li a .something  {
+  background: teal;
+}
+
+button {
+  icons: 'twitter', white, calc(icon-size * 3px);
+  border-radius: 5px;
+padding 5px 10px;  /* todo, maybe shadow function? not mixin */
+box-shadow 0 0 3px red0 0 10px greeninset 0 0 3px blue;}
+
+/* end: index.gack.css */

@@ -7,8 +7,8 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var context = {
-  pkgName: 'char-codes',
-  pkgDesc: 'Char codes utility belt - char code, char name and the char (character)',
+  pkgName: 'berck',
+  pkgDesc: 'The missing framework-agnostic and style-agnostic (BDD and TDD) assertions library for Node.JS and the browser',
   pkgVers: '0.0.0',
   pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')

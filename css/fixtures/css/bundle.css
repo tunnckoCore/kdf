@@ -1,0 +1,61 @@
+/**
+ * Final bundled valid CSS
+ * after processing
+ */
+.homepage {
+  color: #333;
+  background: white;
+  font-size: 2rem;
+  padding-top: 5px;
+}
+.homepage .content p {
+  font-size: 110%;
+  border-radius: 55px;
+},
+.homepage .content {
+  margin: 10px 10px;
+  font-weight: bold;
+}
+.foo {
+  border-radius: 5px;
+  border: 3px solid yellow;
+  font-family: georgia;
+  color: maroon;
+  opacity: 0.5;
+  background: font-color;
+}
+.bar {
+  border-radius: 10px;
+  border: 3px solid $-;
+  font-family: verdana;
+  color: lime;
+  box-sizing: border-box;
+}
+.baz {
+  border-radius: 5px;
+  border: 3px solid fuchsia;
+  font-family: helvetica;
+  color: font-color;
+  background-size: 155px;
+}
+button:hover {
+  color: red 10px;
+}
+button:active {
+  color: blue;
+},
+button .active {
+  color: orange;
+  margin: 10px 10px;
+}
+ul {
+  padding-top: 10px;
+}
+ul li a .something {
+  color: white;
+}
+button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 0 0 3px red, 0 0 10px green, inset 0 0 3px blue;
+}

@@ -1,0 +1,54 @@
+@charset 'utf-8';
+
+:root {
+  helvetica:        "Helvetica", Arial, sans-serif;
+  georgia:          Georgia, Cambria, Times, serif;
+  verdana:          Verdana, "Geneva", sans-serif;
+  
+  blue:             #0074D9;
+  aqua:             #7FDBFF;
+  teal:             #39CCCC;
+  gray:             #dddddd;
+
+  size:             3rem;
+  icon-size:        calc(size / 2);
+  main-color:       gray;
+  company:          'charlike';
+}
+
+:jumbo(radius: 2em, color: #ddd, size: 340px) {
+  border-radius:    radius;
+  background:       color;
+  font-size:        size;
+  
+  // mixin/function flow
+  if:               <expression>;
+  elseif:           <expression>;
+  for:              <expression>;
+  while:            <expression>;
+  else: // nesting
+}
+
+// global flow
+:if() {
+
+}
+:elseif() {
+
+}
+:else {
+
+}
+:for() {
+
+}
+:while() {
+
+}
+
+// @mixin jumbo(radius: 2em, color: #ddd, size: radius * 3)
+@mixin jumbo(radius: 2em, color: #ddd, size: 340px) {
+  border-radius:    radius;
+  background:       color;
+  font-size:        size;
+}
