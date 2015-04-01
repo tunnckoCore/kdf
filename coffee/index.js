@@ -9,7 +9,7 @@ var globals = {
   px: function(val) {
     return val * 3 + 'rem'
   },
-  title: 'my first website!',
+  title: 'my firs!t website!',
   posts: [{
     name: 'Mike',
     comment: 'Hello'

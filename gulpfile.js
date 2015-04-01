@@ -7,8 +7,8 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var context = {
-  pkgName: 'berck',
-  pkgDesc: 'The missing framework-agnostic and style-agnostic (BDD and TDD) assertions library for Node.JS and the browser',
+  pkgName: 'is-missing',
+  pkgDesc: 'Check that given `name` exists in npm registry or github as user`s repository.',
   pkgVers: '0.0.0',
   pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')

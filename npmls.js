@@ -17,7 +17,7 @@ var readdir = require('readdir-stream');
 'use strict';
 
 var cli = meow({
-  pkg: './glob2fp/package.json',
+  // pkg: './glob2fp/package.json',
   help: [
     'Examples',
     '  $ npmls',

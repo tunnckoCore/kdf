@@ -7,9 +7,10 @@
 
 'use strict';
 
+var test = require('testit');
 var assert = require('assert');
 var {{pkgSens}} = require('./index');
 
-describe('{{pkgName}}:', function() {
+test('{{pkgName}}:', function() {
   // body
 });
