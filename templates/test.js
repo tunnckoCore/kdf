@@ -7,8 +7,7 @@
 
 'use strict';
 
-var test = require('testit');
-var assert = require('assert');
+var test = require('assertit');
 var {{pkgSens}} = require('./index');
 
 test('{{pkgName}}:', function() {

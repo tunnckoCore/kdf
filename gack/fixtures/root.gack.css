@@ -4,7 +4,7 @@
   calc: @function(expr) {
     return expr * -1
   }
-  jumbo: (radius: 2em, color: #ddd, size: 340px, sum: radius) => {
+  jumbo: (radius: 2em, color: #ddd, size: 340px, sum: radius) {
     border-radius:    radius;
     background:       color;
     font-size:        size;

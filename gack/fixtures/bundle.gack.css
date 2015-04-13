@@ -26,7 +26,7 @@ icons(cont,clr,szr) {
   color:            blue;
   content:          cont;                  /* required */
   background:       clr main-color;
-  size:             szr;                /* will pass `size` var to `@size` mixin as 0th argument */
+  size:             szr;                /* will pass `szr` var to `@size` mixin as 1th argument */
 }
 /* end> mixins.gack.css */
 /* start> index.gack.css */

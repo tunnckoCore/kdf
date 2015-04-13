@@ -21,8 +21,11 @@ root
 size
   line-height:      calc(sz * 2)
   font-size:        sz
-
-:icons(company: 0.5, color, size)
+:track()
+  color:            red
+  font-size:        12px
+  
+:icons(company = 'tj', color, size)
   padding-left:     calc(size / 10)
   color:            blue
   content:          company
@@ -42,6 +45,7 @@ ul
     color: aqua
 
 button
+  track: ''
   icons: 'twitter', white, calc(icon-size * 3px)
   border-radius: 5px
   padding: 5px 10px
