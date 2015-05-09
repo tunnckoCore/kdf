@@ -2,8 +2,10 @@ var fs = require('fs');
 var Template = require('coffee-templates');
 var Stylesheet = require('coffee-stylesheets');
 
-var jsHTML = require('./template.js');
-var jsCSS = fs.readFileSync('style.js', 'utf-8');
+// var jsHTML = fs.readFileSync('./template.js', 'utf-8');
+
+// fs.writeFileSync
+var jsCSS = fs.readFileSync('./style.js', 'utf-8');
 
 var globals = {
   px: function(val) {
@@ -22,7 +24,7 @@ var globals = {
 var engineHTML = new Template({format: true});
 var engineCSS = new Stylesheet({format: true, globals: globals});
 
-console.log(engineHTML.render(jsHTML, globals))
+console.log(engineHTML.render(require('./template.coffee'), globals))
 // engineHTML.render(template, function(err, html) {
 //   console.log(err, html)
 // })

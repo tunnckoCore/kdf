@@ -1,15 +1,7 @@
 @charset 'utf-8';
 
-:root() {
-  calc: @function(expr) {
-    return expr * -1
-  }
-  jumbo: (radius: 2em, color: #ddd, size: 340px, sum: radius) {
-    border-radius:    radius;
-    background:       color;
-    font-size:        size;
-    content:          calc(radius * 2);
-  }
+:root {
+  radius:           1.75;
   helvetica:        "Helvetica", Arial, sans-serif;
   georgia:          Georgia, Cambria, Times, serif;
   verdana:          Verdana, "Geneva", sans-serif;
@@ -20,17 +12,8 @@
   gray:             #dddddd;
 
   size:             3rem;
-  icon-size:        calc(size / 2);
-  main-color:       @gray;
+  icon-size:        calc(size / 35%);
+  main-color:       gray;
   company:          'charlike';
-}
-@function calc(expr) {
-  return expr
-}
-@mixin jumbo(radius: 2em, color: #ddd, size: 340px, sum: radius) {
-  border-radius:    radius;
-  background:       color;
-  font-size:        size;
-  content:          calc(radius * 2);
 }
 

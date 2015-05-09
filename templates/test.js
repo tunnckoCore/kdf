@@ -5,11 +5,11 @@
  * Released under the MIT license.
  */
 
-'use strict';
+'use strict'
 
-var test = require('assertit');
-var {{pkgSens}} = require('./index');
+var test = require('assertit')
+var {{pkgSens}} = require('./index')
 
-test('{{pkgName}}:', function() {
+test('{{pkgName}}:', function () {
   // body
-});
+})

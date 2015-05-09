@@ -11,7 +11,7 @@
   gray:             #dddddd;
 
   size:             3rem;
-  icon-size:        calc(size / 2);
+  icon-size:        calc(size / 35%);
   main-color:       gray;
   company:          'charlike';
 }
@@ -28,6 +28,7 @@ icons(cont,clr,szr) {
   background:       clr main-color;
   size:             szr;                /* will pass `szr` var to `@size` mixin as 1th argument */
 }
+
 /* end> mixins.gack.css */
 /* start> index.gack.css */
 ul {

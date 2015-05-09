@@ -5,8 +5,8 @@
  * Released under the MIT license.
  */
 
-'use strict';
+'use strict'
 
-module.exports = function {{pkgSens}}() {
+module.exports = function {{pkgSens}} () {
   // body
-};
+}

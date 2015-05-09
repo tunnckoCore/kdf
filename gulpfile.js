@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+'use strict';
 var path = require('path');
 var gulp = require('gulp');
 var dateformat = require('dateformat');
@@ -7,15 +7,15 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var context = {
-  pkgName: 'bubs',
-  pkgDesc: 'Bubbles. Transform string to a much cooler string than what you had initially. Javascript port of the Holman`s bubs.rb!',
+  pkgName: 'parse-git-log',
+  pkgDesc: 'Parse default `git log` style to object from git repository',
   pkgVers: '0.0.0',
   pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')
 };
 context.pkgSens = camelCase(context.pkgName)
 
-var dest = path.join('../jstransformers', context.pkgName);
+var dest = path.join('../', context.pkgName);
 
 gulp.task('default', function defaultFn() {
   gulp.src(['./templates/*.', './templates/.*', './templates/*'])
