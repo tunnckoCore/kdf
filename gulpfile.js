@@ -7,8 +7,8 @@ var mustache = require('gulp-mustache');
 var meow = require('meow');
 
 var context = {
-  pkgName: 'parse-git-log',
-  pkgDesc: 'Parse default `git log` style to object from git repository',
+  pkgName: 'milwaukee-charlike',
+  pkgDesc: 'Scrape data from tutiempo.net/climate for Milwaukee (USA) and build Excel file, lol',
   pkgVers: '0.0.0',
   pkgOrgs: 'tunnckoCore',
   pkgDate: dateformat('longDate')
